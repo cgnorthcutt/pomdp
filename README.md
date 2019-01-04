@@ -1,5 +1,5 @@
-PomDP
-=====
+PomDP the PhD Rapper
+====================
 
 ![screenshot](https://raw.githubusercontent.com/cgnorthcutt/pomdp/master/img/logo_website.png)
 
