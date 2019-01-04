@@ -3,6 +3,7 @@ title: Grayscale
 email: cgn@mit.edu
 url: cgnorthcutt.github.io
 description: "Description."
+baseurl: "/grayscale-theme"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
