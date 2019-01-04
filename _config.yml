@@ -1,9 +1,9 @@
 # Site settings
-title: Grayscale
+title: PomDP the PhD Rapper
 email: cgn@mit.edu
 url: curtisnorthcutt.com
 description: "Description."
-baseurl: "/grayscale-theme"
+baseurl: "/pomdp"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
