@@ -1,7 +1,7 @@
 # Site settings
 title: PomDP the PhD Rapper
 email: cgn@mit.edu
-url: pomdp.productions
+url: "http://pomdp.productions"
 description: "The official website of PomDP the PhD rapper."
 baseurl: ""
 
@@ -29,3 +29,6 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-sitemapA
