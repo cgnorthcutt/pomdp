@@ -6,6 +6,15 @@
                     <div class="col-md-8 col-md-offset-2">
                         <!--  <h1 class="brand-heading">{{ site.title }}</h1> -->
                         <img src="http://curtisnorthcutt.com/pomdp/img/logo_website.png" />
+                        
+                        <ul class="list-inline banner-social-buttons">
+                            <li> Follow on </li>
+                            {% for network in site.social %}
+                            <li>
+                                <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
                         <!--  <p class="intro-text">{{ site.description }}<br> -->
                         <a href="#soundcloud" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
