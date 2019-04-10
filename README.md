@@ -1,7 +1,7 @@
 PomDP the PhD Rapper
 ====================
 
-View the website here: [http://pomdp.productions/ ](http://pomdp.productions/)
+View the website here: [thephdrapper.com](http://www.thephdrapper.com/)
 
 ![screenshot](https://raw.githubusercontent.com/cgnorthcutt/pomdp/master/img/logo_website.png)
 
