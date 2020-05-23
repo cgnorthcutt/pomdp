@@ -15,13 +15,17 @@
 
                             {% for network in site.social %}
                             <li>
+                            {% if network.url == "google" %}
+                                <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                            {% else %}
                                 <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                            {% endif %}
                             </li>
                             {% endfor %}
 
                             <!-- youtube subscribe button -->
                             <li>
-                                <a href="https://www.youtube.com/channel/UC6FtSJ4Qz3FzYIEwbFVLYFA?sub_confirmation=1"><img src="https://www.phdrapper.com/img/subscribe.png" style="height: 47px;" title="Subscribe to PomDP on YouTube" alt="Subscribe"></a>
+                                <a href="https://www.youtube.com/channel/UC6FtSJ4Qz3FzYIEwbFVLYFA?sub_confirmation=1"><img src="/img/subscribe.png" style="height: 45px;" title="Subscribe to PomDP on YouTube" alt="Subscribe"></a>
                             </li>
                         </ul>
                         <!--  <p class="intro-text">{{ site.description }}<br> -->
