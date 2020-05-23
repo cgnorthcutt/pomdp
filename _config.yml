@@ -15,8 +15,10 @@ footer: Northcutt Labs
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: Google
+    url: https://g.co/kgs/8URqc6
   - title: instagram
-    url: https://www.instagram.com/thephdrapper/
+    url: https://www.instagram.com/thephdrapper
   - title: facebook
     url: https://www.facebook.com/thephdrapper
   - title: twitter

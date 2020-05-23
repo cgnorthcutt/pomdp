@@ -3,27 +3,26 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <!--  <h1 class="brand-heading">{{ site.title }}</h1> -->
                         <img src="https://www.phdrapper.com/img/logo_website.png" style="width: 60%; height: 60%"/>
-                       
-                        <h2><a href="https://www.youtube.com/embed/NZgoG46RY5I" target="_blank">New Single: UNDERDOG</a></h2>
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/qi0D-ZdAGUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
                         <!-- No longer being used -->
                         <!--  <h2><a href="https://www.youtube.com/embed/NZgoG46RY5I" target="_blank">New Single: Feel Good</a></h2>
                         <iframe width="450" height="450" src="https://www.youtube.com/embed/NZgoG46RY5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> <iframe src="https://open.spotify.com/embed/track/3ladwYg69a1pt2Oco97g5O" width=380" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
-                      
-                        <br>
+
                         
-                        <a href="https://www.youtube.com/channel/UC6FtSJ4Qz3FzYIEwbFVLYFA?sub_confirmation=1"><img src="https://www.phdrapper.com/img/subscribe.png" style="max-width:200px; margin: 10px" title="Subscribe to PomDP on YouTube" alt="Subscribe"></a>
                         <ul class="list-inline banner-social-buttons">
-                            
+
                             {% for network in site.social %}
                             <li>
                                 <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
                             </li>
                             {% endfor %}
+
+                            <!-- youtube subscribe button -->
+                            <li>
+                                <a href="https://www.youtube.com/channel/UC6FtSJ4Qz3FzYIEwbFVLYFA?sub_confirmation=1"><img src="https://www.phdrapper.com/img/subscribe.png" style="height: 47px;" title="Subscribe to PomDP on YouTube" alt="Subscribe"></a>
+                            </li>
                         </ul>
                         <!--  <p class="intro-text">{{ site.description }}<br> -->
 <!--                         <a href="#latest" class="btn btn-circle page-scroll">
