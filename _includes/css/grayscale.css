@@ -279,6 +279,23 @@ a:focus {
     padding-top: 20px;
 }
 
+iframe {
+    width: 100%;
+}
+
+@media(max-width:767px) {
+    iframe {
+        width: 600px;
+    }
+}
+
+.latest-title,
+.content-title {
+    text-align: center;
+}
+
+
+
 /*iframe {*/
 /*    margin-left: 50px;*/
 /*    margin-right: 50px;*/
@@ -336,6 +353,11 @@ a:focus {
     margin: 0 auto;
 }
 
+.centering-wrapper {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+}
+
 ul.banner-social-buttons {
     margin-top: -25px;
     width: 600px;
@@ -361,6 +383,11 @@ ul.banner-social-buttons li {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
+
+    /*.latest-section,*/
+    /*.content-section {*/
+    /*    display: block;*/
+    /*}*/
 }
 
 footer {
